@@ -22,7 +22,7 @@ htmlcov/
 .ipynb_checkpoints/
 
 # Data, outputs and tracking should be in S3
-# Note: A plain data/ would match a folder named data at any depth. That would silently ignore the planned code package src/sts/data/, which holds schema.py and perturb.py. The slash limits the pattern to the repo root.
+# Note: A plain data/ would match a folder named data at any depth, including code folders. The slash limits the pattern to the repo root.
 /data/
 /outputs/
 /mlruns/
